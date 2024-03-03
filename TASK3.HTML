@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TASK3.css">
+    <title>Currency Converter</title>
+</head>
+<body><nav>
+    
+    <div class="SWETHA-mainhead">
+        <h1>
+            <center>
+                TEHNOHACKS
+            </center>
+        </h1>
+    </div>
+    
+</nav>
+    <div class="converter-container">
+        <h1>Currency Converter</h1>
+        <div class="input-container">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="fromCurrency">
+                <option value="INR">Rupee(INR)</option>
+                <option value="USD">Dollar(USD)</option>
+                <option value="EUR">EURO</option>
+                <option value="YEN">YEN</option>
+                <option value="DIN">DINAR</option>
+                <option value="WON">WON</option>
+            </select>
+            <span>to</span>
+            <select id="toCurrency">
+                <option value="INR">Rupee(INR)</option>
+                <option value="USD">Dollar(USD)</option>
+                <option value="EUR">EURO</option>
+                <option value="YEN">YEN</option>
+                <option value="DIN">DINAR</option>
+                <option value="WON">WON </option>
+            </select> 
+            <button id="convertBtn">Convert</button>
+        </div>
+        <div id="result" class="result-container">
+        </div>
+    </div>
+    <script src="TASK3.js"></script>
+</body>
+</html>
